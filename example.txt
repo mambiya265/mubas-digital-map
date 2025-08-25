@@ -1,0 +1,2 @@
+This is an example file to demonstrate adding files to GitHub.
+Created at: $(date)
