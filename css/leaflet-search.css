@@ -1,0 +1,40 @@
+/* Search control styles */
+.leaflet-control-search {
+    position: relative;
+    float: left;
+    background: #fff;
+    color: #1978cf;
+    border: 2px solid rgba(0,0,0,0.2);
+    background-clip: padding-box;
+    border-radius: 4px;
+    clear: both;
+}
+
+.leaflet-control-search .search-input {
+    width: 200px;
+    height: 30px;
+    padding: 5px 10px;
+    border: none;
+    outline: none;
+}
+
+.leaflet-control-search .search-button {
+    width: 30px;
+    height: 30px;
+    background: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.leaflet-control-search .search-tooltip {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background: white;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+    max-height: 200px;
+    overflow-y: auto;
+    z-index: 1000;
+}

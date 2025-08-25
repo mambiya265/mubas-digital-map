@@ -1,0 +1,25 @@
+/* Tree control styles */
+.leaflet-control-layers-tree {
+    background: white;
+    border-radius: 5px;
+    box-shadow: 0 1px 5px rgba(0,0,0,0.4);
+}
+
+.leaflet-control-layers-tree ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.leaflet-control-layers-tree li {
+    padding: 2px 5px;
+    cursor: pointer;
+}
+
+.leaflet-control-layers-tree li:hover {
+    background-color: #f0f0f0;
+}
+
+.leaflet-control-layers-tree .leaflet-control-layers-tree-checkbox {
+    margin-right: 5px;
+}

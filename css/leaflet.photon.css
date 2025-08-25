@@ -1,0 +1,33 @@
+/* Photon geocoding control styles */
+.leaflet-photon-input {
+    width: 200px;
+    height: 30px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.leaflet-photon-results {
+    background: white;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+    max-height: 200px;
+    overflow-y: auto;
+    position: absolute;
+    z-index: 1000;
+}
+
+.leaflet-photon-result {
+    padding: 5px 10px;
+    cursor: pointer;
+    border-bottom: 1px solid #eee;
+}
+
+.leaflet-photon-result:hover {
+    background-color: #f0f0f0;
+}
+
+.leaflet-photon-result:last-child {
+    border-bottom: none;
+}

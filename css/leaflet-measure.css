@@ -1,0 +1,33 @@
+/* Measure control styles */
+.leaflet-control-measure {
+    background: white;
+    border: 2px solid rgba(0,0,0,0.2);
+    border-radius: 4px;
+}
+
+.leaflet-control-measure a {
+    background-color: #fff;
+    width: 36px;
+    height: 36px;
+    line-height: 36px;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+}
+
+.leaflet-control-measure a:hover {
+    background-color: #f4f4f4;
+}
+
+.leaflet-control-measure.enabled a {
+    background-color: #7fbbda;
+}
+
+.leaflet-measure-tooltip {
+    background: rgba(0,0,0,0.8);
+    color: white;
+    padding: 5px 10px;
+    border-radius: 3px;
+    font-size: 12px;
+}
